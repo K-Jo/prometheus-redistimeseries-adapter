@@ -53,7 +53,7 @@ func parseFlags() {
 	flag.StringVar(&cfg.listenAddr, "web.listen-address", "127.0.0.1:9201",
 		"Address to listen on for web endpoints.",
 	)
-	flag.StringVar(&cfg.logLevel, "log.level", "debug",
+	flag.StringVar(&cfg.logLevel, "log.level", "info",
 		"Only log messages with the given severity or above. One of: [debug, info, warn, error]",
 	)
 
